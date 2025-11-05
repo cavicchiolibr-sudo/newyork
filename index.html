@@ -2,12 +2,47 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
-  <tittle>Áudio de Apresentação - Nova Iorque</title>
+  <title>🎵 Áudio de Apresentação</title>
+  <style>
+    body {
+      background: linear-gradient(135deg, #1e1e2f, #2b2b40);
+      color: #fff;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin: 0;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 1.8rem;
+      margin-bottom: 20px;
+      color: #f1f1f1;
+    }
+
+    audio {
+      width: 300px;
+      filter: drop-shadow(0 0 8px rgba(0,0,0,0.4));
+      border-radius: 10px;
+    }
+
+    footer {
+      position: absolute;
+      bottom: 15px;
+      font-size: 0.85rem;
+      opacity: 0.6;
+    }
+  </style>
 </head>
 <body>
- <h1>Áudio de Apresentação - Nova Iorque</h1>
- <audio controls>
-   <source src="newyork.mp3?raw-true" type="audio/mpeg">
+  <h1>🎧 Áudio de Apresentação</h1>
+  <audio controls autoplay loop>
+    <source src="aptj.mp3" type="audio/mpeg">
+    Seu navegador não suporta o elemento de áudio.
   </audio>
+  <footer>© cavicchiolibr-sudo</footer>
 </body>
 </html>
